@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "best-example", "best-example.csproj", "{D39EEE7D-71AD-4F2C-8A7E-743C238CDC10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "best-example", "best-example.csproj", "{D39EEE7D-71AD-4F2C-8A7E-743C238CDC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-api", "..\web-api\web-api.csproj", "{EB5F5595-9DAE-45F9-978E-E7BDD5BAFBC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D39EEE7D-71AD-4F2C-8A7E-743C238CDC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D39EEE7D-71AD-4F2C-8A7E-743C238CDC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D39EEE7D-71AD-4F2C-8A7E-743C238CDC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5F5595-9DAE-45F9-978E-E7BDD5BAFBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5F5595-9DAE-45F9-978E-E7BDD5BAFBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5F5595-9DAE-45F9-978E-E7BDD5BAFBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5F5595-9DAE-45F9-978E-E7BDD5BAFBC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
